@@ -4,3 +4,6 @@ kln
 stack
 queue
 linkedlist
+
+arraylist
+hashmap
