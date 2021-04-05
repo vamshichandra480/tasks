@@ -1,9 +1,10 @@
-hukjbn
-jkhknm k
-kln
+
 stack
 queue
 linkedlist
 
 arraylist
 hashmap
+hash set and array
+git commands
+understanding of ds and development
