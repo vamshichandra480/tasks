@@ -1,6 +1,4 @@
-hukjbn
-jkhknm k
-kln
+
 stack
 queue
 linkedlist
