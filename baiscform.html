@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample form</title>
+<style>
+    body{
+        background-image: url('Bob2NL.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .form{
+        width: 450px;
+        box-sizing: border-box;
+        border: 2px solid white;
+
+        border-color: white;
+        display: inline-block;
+
+
+
+        margin: 25px 550px;
+        }
+
+        #form{
+            padding: 10px;
+            border-radius: 1px solid white;
+        }
+        h2{
+            text-align: center;
+            color: white;
+        }
+        h6{
+            text-align: center;
+            padding-left: 15px;
+          /*  font-family:Arial, Helvetica, sans-serif;*/
+            color: white;
+        }
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+</style>
+</head>
+<body>
+    <div class="form">
+        <header>
+            <h2>BOOK A CALL</h2><br>
+            <h6>Book a call slot and our representative will call you within 1hr of selected time</h6>
+        </header>
+        <hr style="height:1px;border-width:0;color:white;background-color:white">
+        <form action="" id="form">
+         <label for="name" style="color: white;">Name:</label><br>
+         <input type="text" id ="name"style="width: 420px"><br><br>
+         <label for="email" style="color: white;">Email:</label><br>
+         <input type="email" name="email" id="email" style="width: 420px;"><br><br>
+         <label for="phone" style="color: white;">Phone:</label><br>
+         <input type="tel" name="phone" id="phoneno" style="width: 420px;"><br><br>
+         <label for="timeforcall" style="color: white;">Time for Call:</label><br>
+         <input type="date" name="date" id="date" style="width: 210px;">
+         <input type="time" name="time" id="time" style="width: 200px;"><br><br>
+         <input type="submit" value="GET A CALL" style="background-color: orange; color: white; border-radius: 4px; width: 420px;">   
+        </form>
+    </div>
+</body>
+</html>
