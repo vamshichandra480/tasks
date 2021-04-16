@@ -1,0 +1,37 @@
+var itemlist = document.querySelector('#items')
+//parentNode
+//console.log(itemlist.parentNode)   
+//itemlist.parentNode.style.backgroundColor = 'lightgrey'
+//console.log(itemlist.parentNode.parentNode)
+//childnodes
+//console.log(itemlist.childNodes)
+//parentelement
+console.log(itemlist.parentElement)
+//firstchild
+console.log(itemlist.firstChild);
+console.log(itemlist.firstElementChild)
+//lastelement child
+console.log(itemlist.lastElementChild)
+//last child
+console.log(itemlist.lastChild)
+console.log(itemlist.nextSibling)
+console.log(itemlist.nextElementSibling);
+console.log(itemlist.previousElementSibling)
+itemlist.previousElementSibling.style.color = 'green';
+console.log(itemlist.previousSibling)
+var newDiv  = document.createElement('div')
+newDiv.className = 'divclass';
+newDiv.setAttribute('title','hello');
+var newDivtext = document.createTextNode('HEllo')
+newDiv.style.fontSize ='30px' 
+newDiv.appendChild(newDivtext)
+var container = document.querySelector('header .headerdiv');
+var h1 = document.querySelector('header h1');
+container.insertBefore(newDiv,h1);
+var li = document.createElement('li');
+li.className = 'listgroupitems';
+var litext = document.createTextNode('HEllo');
+li.appendChild(litext);
+var ul = document.querySelector('.listitems');
+var ulchild = document.querySelector('ul li');
+ul.insertBefore(li,ulchild)
