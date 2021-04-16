@@ -15,3 +15,18 @@ var text = document.getElementById('bodyh2');
 text.innerHTML = '<b>add items</b>'
 text.style.color = 'green';
 console.log(text)
+//get elements by tagname
+var li = document.getElementsByTagName('li');
+console.log(li);
+li[1].textContent = 'hellooo'
+for (let index = 0 ; index < li.length; index++)
+{
+    li[index].style.fontWeight = 'bold';
+
+}
+//get elements by class name
+var li1 = document.getElementsByClassName('listgroupitems');
+for(let i=0;i<li1.length;i++)
+{
+li1[i].style.backgroundColor = 'yellow';
+}
